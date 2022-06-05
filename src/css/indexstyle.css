@@ -8,14 +8,14 @@ header {
     background-color:#7974e3; 
     color: #fdf486;
     display: flex;
-    font-size: 20pt;
-    height: 250px;
+    font-size: 15pt;
+    height: 200px;
 }
 
 div {
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
 
 span {
@@ -26,10 +26,7 @@ span {
 
 span:hover {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14pt;
-    line-height: 20px;
     color: black;
-    height: 2px;
     cursor: pointer;
 }
 
@@ -51,7 +48,7 @@ a {
 a:hover {
     color: #7974e3;
     text-decoration: none;
-    font-size: 15pt;
+    font-size: 12pt;
     margin-left: 55px;
 }
 
@@ -60,8 +57,13 @@ a:hover {
     line-height: 65px;
 }
 
+#divNav > nav {
+    flex-direction: column;
+}
+
 #divLogo {
     width: 30%;
+    margin-right: 50px;
 }
 
 img {
@@ -105,9 +107,14 @@ body {
     font-size: 30pt;
     padding: 15px;
     background-color: #fdf486;
-    width: 25%;
+    width: 85%;
     border-radius: 20px 0 20px 0;
-    margin-left: 25px;
+    margin-top: 20px;
+    margin-left: 45px;
     height: 65px;
     cursor: pointer;
+}
+
+#construction {
+    font-size: 25pt;
 }
