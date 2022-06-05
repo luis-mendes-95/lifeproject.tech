@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color:#7974e3; 
+    color: #fdf486;
+    display: flex;
+    font-size: 20pt;
+    height: 250px;
+}
+
+div {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    line-height: 20px;
+}
+
+span:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    line-height: 20px;
+    color: black;
+    height: 2px;
+    cursor: pointer;
+}
+
+nav {
+    margin: auto;
+    height: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 55px;
+    background-color: #fdf486;
+    border-radius: 5px;
+    padding: 5px;
+    height: 100%;
+}
+
+a:hover {
+    color: #7974e3;
+    text-decoration: none;
+    font-size: 15pt;
+    margin-left: 55px;
+}
+
+#divNav {
+    width: 60%;
+    line-height: 65px;
+}
+
+#divLogo {
+    width: 30%;
+}
+
+img {
+    height: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+
+img:hover {
+    height: 120px;
+    margin: auto;
+}
+
+figcaption {
+    margin: auto;
+    cursor: pointer;
+}
+
+figcaption:hover {
+    color: black;
+    font-size: 15pt;
+}
+
+body {
+    background-color: #7974e3;
+}
+
+#customizeButton {
+    color: black;
+    font-size: 35pt;
+    padding: 15px;
+    background-color: #fdf486;
+    width: 35%;
+    border-radius: 20px 0 20px 0;
+    margin-left: 25px;
+    height: 80px;
+}
+
+#customizeButton:hover {
+    color: #7974e3;
+    font-size: 30pt;
+    padding: 15px;
+    background-color: #fdf486;
+    width: 25%;
+    border-radius: 20px 0 20px 0;
+    margin-left: 25px;
+    height: 65px;
+    cursor: pointer;
+}
