@@ -115,6 +115,14 @@ body {
     cursor: pointer;
 }
 
-#construction {
-    font-size: 25pt;
+#someportfolio {
+    color: black;
+    font-size: 35pt;
+    padding: 15px;
+    background-color: #fdf486;
+    width: 90%;
+    border-radius: 20px 0 20px 0;
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 80px;
 }
