@@ -1,4 +1,4 @@
-let textarea = document.getElementById("customizeButton");
+/* let textarea = document.getElementById("customizeButton");
 textarea.innerHTML = "Customize a project!";
 
 function mouseentered() {
@@ -12,4 +12,4 @@ function changetext() {
 mouseentered();
 changetext();
 
-/* CODE ABOVE NEEDS TO BE CORRECTED TO COERENCE */
+ CODE ABOVE NEEDS TO BE CORRECTED TO COERENCE */

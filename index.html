@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solutions for an easier life</title>
     <link rel="stylesheet" href="./src/css/indexstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div name="header-menu" id="divNav">
             <nav name="menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Free Softwares</a>
+                <a class="menu" href="#">Home</a>
+                <a class="menu" href="#">About</a>
+                <a class="menu" href="#">Contact</a>
+                <a class="menu" href="#">Free Softwares</a>
             </nav>
 
         </div>
@@ -37,14 +40,38 @@
     </header>
     <section name="buttonforcustomize" id="buttonForCustomize">
         <div name="customize-button" id="customizeButton">
-        Customize a project!
+        <h1>Customize a software!</h1>
         </div>
     </section>
     <section name="portfolio">
         <div id="someportfolio">
         Check out projects in progress!!!
+        <img src="/src/gesttor/src/img/aponta.png" alt="Apontando">
+        </div>
+        <div class="itemPortfolio">
+            <div>
+                <img src="/src/img/tejaslogo.png" alt="logo tejas">
+            </div>
+            <h2>Tejas Designs</h2>
+            <p>Tejas is an online store and local business that provides digital designs,
+                 printings, uniforms confection and visual comunication.</p>
+            <div id="customizeButton2">
+                <a href="https://tejas.com.br" target="_blank">Click to see it!</a>
+            </div>
         </div>
     </section>
+        <section name="portfolio2">
+            <div class="itemPortfolio">
+                <div>
+                    <img src="/src/gesttor/src/img/logo.png" alt="logo gesttor">
+                </div>
+                <h2>Gesttor</h2>
+                <p>Gesttor is an online app that helps people to manage many things</p>
+                <div id="customizeButton2">
+                    <a href="/src/gesttor/index.html" target="_blank">Click to see it!</a>
+                </div>
+            </div>
+        </section>
 
     <script src="./src/js/indexscript.js"></script>
 </body>
